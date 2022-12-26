@@ -20,6 +20,7 @@ def load_style(app: QApplication):
 
 
 app = QApplication(sys.argv)
+load_style(app)
 main_window = MainWindow()
 app.exec()
         

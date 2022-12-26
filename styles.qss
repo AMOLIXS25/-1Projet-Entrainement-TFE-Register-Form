@@ -1,0 +1,22 @@
+QFrame#frame {
+    background-color: #FECE2F;
+    border-radius: 10px;
+    opacity: 75%;
+}
+
+QLineEdit {
+    border-radius: 5px;
+}
+
+QLineEdit:hover {
+    border: 1px solid black;
+}
+
+QFrame#confirm_button, QFrame#browser_button {
+    background-color: #1A1A1A;
+    border-radius: 5px;
+}
+
+QFrame#confirm_button > QLabel, QFrame#browser_button > QLabel {
+    color: white;
+}

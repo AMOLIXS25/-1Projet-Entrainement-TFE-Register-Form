@@ -63,7 +63,7 @@ class Ui_MainWindow(object):
         self.pp_label.setGeometry(QRect(20, 340, 171, 16))
         self.pp_picture = QLabel(self.frame)
         self.pp_picture.setObjectName(u"pp_picture")
-        self.pp_picture.setGeometry(QRect(20, 400, 47, 13))
+        self.pp_picture.setGeometry(QRect(20, 360, 151, 91))
         self.browser_button = QFrame(self.frame)
         self.browser_button.setObjectName(u"browser_button")
         self.browser_button.setGeometry(QRect(20, 460, 111, 31))

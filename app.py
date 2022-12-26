@@ -12,6 +12,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.show()
 
 
+def load_style(app: QApplication):
+    """Load the style for my application thanks to a qss file style"""
+    with open('styles.qss', 'r') as f:
+        styles = f.read()
+        app.setStyleSheet(styles)
+
+
 app = QApplication(sys.argv)
 main_window = MainWindow()
 app.exec()

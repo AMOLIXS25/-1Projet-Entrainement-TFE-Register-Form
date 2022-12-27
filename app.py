@@ -28,6 +28,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.pp_picture.setPixmap(pixmap)
 
 
+    def on_confirm_button_clicked(self, event):
+
+
 def load_style(app: QApplication):
     """Load the style for my application thanks to a qss file style"""
     with open('styles.qss', 'r') as f:

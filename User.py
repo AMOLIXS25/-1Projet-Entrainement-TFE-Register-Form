@@ -1,7 +1,6 @@
 import dataclasses
 
-
-@dataclasses
+@dataclasses.dataclass
 class User:
     """User class"""
     login: str
